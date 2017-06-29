@@ -147,28 +147,20 @@ $resource est plus adapté que $http lorsqu'il y a des conditions légérement p
 b) C'est quoi la différence entre front-end et back-end en fait ?
 front = client
 back = serveur
-
 c) Pourquoi je ne peux pas utiliser document.getElementById dans NodeJS ?
 Car Node.js utilise déjà certaines méthodes pour modifier le DOM
-
 d) Pourquoi c'est très grave d'utiliser document.getElementById dans AngularJS ?
 Parce que cela crée des conflits si nous utilisons du JS natif
-
 e) C'est quoi la différence entre NodeJS et Javascript ?
 Node.JS est un interpréteur écrit en C# , JS est un langage 
-
 f) En quoi c'est utile d'utiliser npm ?
 NPM est une librairie permettant l'installation de packages directement depuis le terminal 
-
 g) A quoi ça sert une base de donnée ? Et mongoDB ?
 Elle permet d'indexer des données, à contrario de SQL qui se base sur le relationnel MongoDB permet d'indexer des données volumineuses 
-
 h) Est-il possible de faire des relations entre plusieurs collections ? Est-ce une bonne pratique ?
 Oui c'est possible , non ce n'est pas une bonne pratique 
-
 i) C'est quoi un document dans mongoDB ? et une collection au final ?
-Un document est une donnée, une collection est un ensemble de document
- 
+Un document est une donnée, une collection est un ensemble de document 
 j) Quelle serait la requête qui me permettrait d'aller chercher dans 
     ma db "toto" dans la collection "tata" l'utilisateur ayant pour nom "titi" ?
 
